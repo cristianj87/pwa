@@ -1,0 +1,55 @@
+/* Custom Properties */
+:root {
+    --main-color: #4fa2f0;
+    --main-modal-color: rgba(18, 86, 233, 0.507);
+    --second-color: #2B2B2B;
+    --second-modal-color: rgba(14, 114, 245, 0.5);
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: 'Rowdies', cursive;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--second-color);
+    background-color: var(--main-modal-color);
+  }
+  
+  *,
+  *:after,
+  *:before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    margin: 2rem auto;
+    overflow-x: hidden;
+    max-width: 800px;
+  }
+  
+  p {
+    padding: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  ::selection {
+    background-color: var(--second-color);
+    color: var(--main-color);
+  }
+  
+  .Header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .Header h1 { word-wrap: break-word; }
+  
+  .Header img {
+    margin: 0 auto;
+    display: block;
+    max-width: 250px;
+    border-radius: 150%;
+  }
