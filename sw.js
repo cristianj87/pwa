@@ -5,7 +5,6 @@ const CACHE_NAME = 'v1_pwa_basic',
     './',
     './style.css',
     './script.js',
-    './img/pwa.jpeg',
     './img/favicon.png'
   ]
 
