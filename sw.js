@@ -1,6 +1,6 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'cache pwa',
+const CACHE_NAME = 'cache_pwa',
   urlsToCache = [
     './',
     './style.css',
